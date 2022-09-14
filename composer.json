@@ -6,12 +6,16 @@
     "keywords": ["library", "aop", "php", "aspect"],
     "homepage": "http://go.aopphp.com/",
     "license": "MIT",
-
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sapsaldog/parser-reflection"
+        }
+    ],
     "require": {
-        "php": "^7.4.0",
         "doctrine/annotations": "^1.11.1",
         "doctrine/cache": "^1.10",
-        "goaop/parser-reflection": "^3.0.1",
+        "goaop/parser-reflection": "dev-master",
         "jakubledl/dissect": "~1.0",
         "laminas/laminas-code": "^4.0",
         "symfony/finder": "^4.4|^5.1"
